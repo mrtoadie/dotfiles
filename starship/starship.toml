@@ -1,0 +1,134 @@
+format = """
+[ ](#434C5E)\
+$os\
+[  ](bg:#434C5E fg:#1793D1)\
+$username\
+[](bg:#434C5E fg:#3B4252)\
+$directory\
+[](fg:#434C5E bg:#4C566A)\
+$git_branch\
+$git_status\
+[](fg:#4C566A bg:#86BBD8)\
+[](fg:#86BBD8 bg:#06969A)\
+[](fg:#06969A bg:#33658A)\
+$python\
+$docker_context\
+$cmd_duration\
+[](fg:#33658A)\
+\n$character"""
+
+right_format = """
+[](fg:#33658A)[ 󰣙 ](bg:#33658A)$time[](fg:#33658A)\
+[ ](fg:#06969A)[  ](bg:#06969A)$memory_usage[](fg:#06969A)\
+"""
+add_newline = true
+
+command_timeout = 5000
+
+[cmd_duration]
+min_time = 500
+format = "[ $duration ](bg:#33658A italic bright-yellow)"
+
+[username]
+show_always = true
+style_user = "bg:#3B4252"
+style_root = "bg:#3B4252"
+format = '[$user ]($style)'
+
+[directory]
+style = "bg:#434C5E"
+format = "[ $path ]($style)"
+truncation_length = 3
+#truncation_symbol = "…/"
+home_symbol = " "
+read_only = " "
+
+[directory.substitutions]
+"Dokumente" = "Dokumente 󰈙 "
+"Downloads" = "Downloads  "
+"Music" = "Music 󰝚 "
+"Bilder" = "Bilder  "
+"etc" = "etc  "
+"Obsidian" = "Obsidian "
+"Dev" = "Dev  "
+"Batch" = "Batch "
+"Bash" = "Bash  "
+"Python" = "Python  "
+"Comics" = "Comics 󱙝"
+"MailArchiv" = "MailArchiv 󰥢"
+".steam" = "Steam 戮"
+"ProtonDrive" = "ProtonDrive "
+"Docker" = "Docker  "
+
+continuation_prompt = '▶▶ '
+
+[docker_context]
+symbol = " "
+style = "bg:#06969A"
+format = '[ $symbol $context ]($style) $path'
+detect_files = ["docker-compose.yml", "docker-compose.yaml", "Dockerfile"]
+detect_folders = []
+disabled = false
+
+[nix_shell]
+symbol = " "
+
+[git_branch]
+symbol = ""
+style = "bg:#4C566A"
+format = '[ $symbol $branch ]($style)'
+
+[git_status]
+style = "bg:#4C566A"
+format = '[$all_status$ahead_behind ]($style)'
+
+[python]
+symbol = ""
+style = "bg:#33658A"
+format = '[ $symbol( $version) ]($style)'
+
+[memory_usage]
+disabled = false
+threshold = -1
+style = "bg:#06969A"
+format = "[$ram]($style)"
+
+[status]
+style = 'bg:blue'
+symbol = '🔴 '
+success_symbol = '🟢 SUCCESS'
+not_executable_symbol = '🚫'
+format = '[\[$symbol$common_meaning$signal_name$maybe_int\]]($style) '
+map_symbol = true
+disabled = false
+
+[battery]
+format = "[ $percentage $symbol]($style)"
+full_symbol = "[█](italic green)"
+charging_symbol = "[↑](italic green)"
+discharging_symbol = "[↓](italic)"
+unknown_symbol = "[░](italic)"
+empty_symbol = "[▃](italic red)"
+
+[[battery.display]]
+threshold = 40
+style = "dimmed yellow"
+
+[[battery.display]]
+threshold = 70
+style = "dimmed white"
+
+[time]
+disabled = false
+time_format = "%R"
+style = "bg:#33658A"
+format = '[ $time ]($style)'
+
+[line_break]
+disabled = false
+
+[character]
+disabled = false
+success_symbol = '[  󱞩](bold fg:color_green)'
+#error_symbol = '[](bold fg:color_red)'
+error_symbol = "[✗](bold red)"
