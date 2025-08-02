@@ -1,0 +1,168 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+      //"type": "auto",
+      "source": "arch",
+      "width": 65,
+      "height": 35,
+      "padding": {
+        "top": 3
+      },
+      "color": {
+		    "1": "blue",
+		    "2": "blue"
+		}
+  },
+  "display": {
+    "separator": ": ",
+    "color": "blue"
+  },
+  "modules": [
+    "break",
+    {
+      "type": "title",
+    },
+    {
+      "type": "custom",
+      "format": "╾─────────────────────────────────────────────────────────────╼",
+      "outputColor": "blue"
+    },
+    {
+      "type": "os",
+      "key": "┌╼ OS",
+      "keyColor": "blue"
+    },
+    {
+      "type": "command",
+      "key": "├╼ OS Age",
+      "keyColor": "blue",
+      "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+    },
+    {
+      "type": "kernel",
+      "key": "├╼ Kernel",
+      "keyColor": "blue"
+    },
+    {
+      "type": "uptime",
+      "key": "├╼ Uptime",
+      "keyColor": "blue"
+    },
+    {
+      "type": "packages",
+      "key": "├╼ Packages",
+      "keyColor": "blue"
+    },
+    {
+      "type": "shell",
+      "key": "└╼ Shell",
+      "keyColor": "blue"
+    },
+    {
+      "type": "custom",      
+      "format": "╾─────────────────────────────────────────────────────────────╼"
+    },
+    {
+      "type": "cpu",
+      "key": "┌╼ CPU",
+      "showPeCoreCount": true,
+      "temp": true,
+      "keyColor": "blue"
+    },
+    {
+      "type": "gpu",
+      "key": "├╼ GPU",
+      //"keyColor": "yellow",
+      //"driverSpecific": true,
+      "temp": true,
+      "keyColor": "blue"
+    },
+    {
+      "type": "memory",
+      "key": "├╼ Memory",
+      "keyColor": "blue"
+    },
+    {
+      "type": "swap",
+      "key": "├╼ Swap",
+      "keyColor": "blue"
+    },
+    {
+      "type": "processes",
+      "key": "└╼ Processes",
+      "keyColor": "blue"
+    },
+    {
+      "type": "custom",
+      "format": "╾─────────────────────────────────────────────────────────────╼"
+    },
+    {
+      "type": "disk",
+      "key": "┌╼  /",
+      "folders": "/",
+      "keyColor": "blue"
+    },
+    {
+      "type": "disk",
+      "key": "├╼  /home",
+      "folders": "/home",
+      "keyColor": "blue"
+    },
+    {
+      "type": "disk",
+      "key": "├╼  /data",
+      "folders": "/run/media/toadie/data",
+      "keyColor": "blue"
+    },
+    {
+      "type": "disk",
+      "key": "├╼ 󰒍 Backup_01",
+      "folders": "/run/media/toadie/Backup_01",
+      "keyColor": "blue"
+    },
+    {
+      "type": "disk",
+      "key": "├╼ 󰒍 Backup_02",
+      "folders": "/run/media/toadie/Backup_02",
+      "keyColor": "blue"
+    },
+    {
+      "type": "disk",
+      "key": "├╼ 󰒍 Backup_03",
+      "folders": "/run/media/toadie/Backup_03",
+      "keyColor": "blue"
+    },
+    {
+      "type": "disk",
+      "key": "├╼ 󰒍 toadlap",
+      "folders": "/mnt/nfs/toadlap",
+      "keyColor": "blue"
+    },
+    {
+      "type": "disk",
+      "key": "└╼  /vm",
+      "folders": "/run/media/toadie/vm",
+      "keyColor": "blue"
+    },
+    {
+      "type": "custom",
+      "format": "╾─────────────────────────────────────────────────────────────╼"
+    },
+    {
+      "key": "┌╼  Last Backup",
+      "type": "command",
+      "text": "sh /home/toadie/Dev/Bash/fastfetch/fastfetch_backup_datum.sh",
+      "keyColor": "blue"
+    },
+    {
+      "key": "└╼  Last Update",
+      "type": "command",
+      //"text": "cat /home/toadie/Dokumente/Obsidian/Linux/Logs/Update_toad.md | tail -1"
+      "text": "sh /home/toadie/Dev/Bash/fastfetch/fastfetch_update_datum.sh"
+    },
+    {
+      "type": "custom",
+      "format": "╾─────────────────────────────────────────────────────────────╼"
+    }
+  ]
+}
