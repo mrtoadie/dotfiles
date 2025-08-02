@@ -111,54 +111,38 @@
     {
       "type": "disk",
       "key": "├╼  /data",
-      "folders": "/run/media/toadie/data",
+      "folders": "/run/media/data",
       "keyColor": "blue"
     },
     {
       "type": "disk",
       "key": "├╼ 󰒍 Backup_01",
-      "folders": "/run/media/toadie/Backup_01",
+      "folders": "/run/media/Backup_01",
       "keyColor": "blue"
     },
     {
       "type": "disk",
       "key": "├╼ 󰒍 Backup_02",
-      "folders": "/run/media/toadie/Backup_02",
+      "folders": "/run/media/Backup_02",
       "keyColor": "blue"
     },
     {
       "type": "disk",
       "key": "├╼ 󰒍 Backup_03",
-      "folders": "/run/media/toadie/Backup_03",
+      "folders": "/run/media/Backup_03",
       "keyColor": "blue"
     },
     {
       "type": "disk",
       "key": "├╼ 󰒍 toadlap",
-      "folders": "/mnt/nfs/toadlap",
+      "folders": "/mnt/nfs/laptop",
       "keyColor": "blue"
     },
     {
       "type": "disk",
       "key": "└╼  /vm",
-      "folders": "/run/media/toadie/vm",
+      "folders": "/run/media/vm",
       "keyColor": "blue"
-    },
-    {
-      "type": "custom",
-      "format": "╾─────────────────────────────────────────────────────────────╼"
-    },
-    {
-      "key": "┌╼  Last Backup",
-      "type": "command",
-      "text": "sh /home/toadie/Dev/Bash/fastfetch/fastfetch_backup_datum.sh",
-      "keyColor": "blue"
-    },
-    {
-      "key": "└╼  Last Update",
-      "type": "command",
-      //"text": "cat /home/toadie/Dokumente/Obsidian/Linux/Logs/Update_toad.md | tail -1"
-      "text": "sh /home/toadie/Dev/Bash/fastfetch/fastfetch_update_datum.sh"
     },
     {
       "type": "custom",
