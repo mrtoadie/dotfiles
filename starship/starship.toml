@@ -2,6 +2,7 @@ format = """
 [ ](#434C5E)\
 $os\
 [  ](bg:#434C5E fg:#1793D1)\
+[](fg:#434C5E bg:#3B4252)\
 $username\
 [](bg:#434C5E fg:#3B4252)\
 $directory\
@@ -13,12 +14,17 @@ $git_status\
 [](fg:#06969A bg:#33658A)\
 $python\
 $docker_context\
+$golang\
+$rust\
+$c\
+$cpp\
+$nixshell\
 $cmd_duration\
 [](fg:#33658A)\
 \n$character"""
 
 right_format = """
-[](fg:#33658A)[ 󰣙 ](bg:#33658A)$time[](fg:#33658A)\
+[](fg:#33658A)[ 󰣙](bg:#33658A)$time[](fg:#33658A)\
 [ ](fg:#06969A)[  ](bg:#06969A)$memory_usage[](fg:#06969A)\
 """
 add_newline = true
@@ -32,13 +38,13 @@ format = "[ $duration ](bg:#33658A italic bright-yellow)"
 [username]
 show_always = true
 style_user = "bg:#3B4252"
-style_root = "bg:#3B4252"
-format = '[$user ]($style)'
+style_root = "bg:#aa0000"
+format = '[ $user ]($style)'
 
 [directory]
 style = "bg:#434C5E"
 format = "[ $path ]($style)"
-truncation_length = 3
+truncation_length = 4
 #truncation_symbol = "…/"
 home_symbol = " "
 read_only = " "
@@ -49,17 +55,21 @@ read_only = " "
 "Music" = "Music 󰝚 "
 "Bilder" = "Bilder  "
 "etc" = "etc  "
-"Obsidian" = "Obsidian "
+"Obsidian" = "Obsidian  "
 "Dev" = "Dev  "
-"Batch" = "Batch "
+"Batch" = "Batch  "
 "Bash" = "Bash  "
 "Python" = "Python  "
-"Comics" = "Comics 󱙝"
+"Comics" = "Comics 󱙝 "
+"Cloudeteer" = "Cloudeteer 󱓟"
 "MailArchiv" = "MailArchiv 󰥢"
-".steam" = "Steam 戮"
-"ProtonDrive" = "ProtonDrive "
+".steam" = "Steam 戮 "
 "Docker" = "Docker  "
-
+"Rust" = "Rust "
+"tmp" = "tmp  "
+"Go" = "Go  "
+"C++" = "C++  "
+"Windows" = "Windows 󰍲 "
 continuation_prompt = '▶▶ '
 
 [docker_context]
@@ -69,6 +79,9 @@ format = '[ $symbol $context ]($style) $path'
 detect_files = ["docker-compose.yml", "docker-compose.yaml", "Dockerfile"]
 detect_folders = []
 disabled = false
+
+[kubernetes]
+format = '\[[$symbol$context( \($namespace\))]($style)\]'
 
 [nix_shell]
 symbol = " "
@@ -85,7 +98,28 @@ format = '[$all_status$ahead_behind ]($style)'
 [python]
 symbol = ""
 style = "bg:#33658A"
+#format = '[ $symbol( $version) ]($style)'
+format = '[ ${symbol} ${pyenv_prefix}( ${version})(\($virtualenv\))]($style)'
+
+[rust]
+symbol = ""
+style = "bg:#33658A"
 format = '[ $symbol( $version) ]($style)'
+
+[golang]
+symbol = ""
+style = "bg:#33658A"                                                                                                                                         
+format = '[ $symbol( $version) ]($style)'
+
+[c]
+symbol = " "
+style = "bg:#33658A"
+format = '[ $symbol ($version) ]($style)'
+
+[cpp]
+symbol = " "
+style = "bg:#33658A"
+format = '[ $symbol ($version) ]($style)'
 
 [memory_usage]
 disabled = false
