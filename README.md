@@ -2,6 +2,6 @@
 DOT files for Linux
 ## Custumization
 
-* [Conky](conky)
+* [conky](conky)
 * [fastfetch](fastfetch)
 * [starship](starship)
