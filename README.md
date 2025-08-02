@@ -1,6 +1,6 @@
-# linux-configs
+# Linux configs
 DOT files for Linux
-## Customizing
+## Customizing & Theming
 ### conky
 * [conky](conky)
   * conky.conf
@@ -11,3 +11,6 @@ DOT files for Linux
 ### starship
 * [starship](starship)
   * starship.toml
+### Alacritty
+* [alacritty] (alacritty)
+ * alacritty.toml
