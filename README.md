@@ -13,4 +13,4 @@ DOT files for Linux
   * starship.toml
 ### Alacritty
 * [alacritty](alacritty)
- * alacritty.toml
+  * alacritty.toml
