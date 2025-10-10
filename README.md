@@ -1,5 +1,5 @@
-# Linux configs
-DOT files for Linux
+# Welcome to my dotfiles!
+Some DOT files for Linux
 ## Customizing & Theming
 ### conky
 * [conky](conky)
