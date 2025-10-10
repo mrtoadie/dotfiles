@@ -11,6 +11,6 @@ Some DOT files for Linux
 ### starship
 * [starship](starship)
   * starship.toml
-### Alacritty
+### alacritty
 * [alacritty](alacritty)
   * alacritty.toml
