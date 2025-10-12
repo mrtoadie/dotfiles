@@ -4,7 +4,8 @@ Some DOT files for Linux
 | --- | --- |
 | **Customizing & Theming** | |
 | [conky](conky) | conky |
-| [fastfetch](fastfetch) |
-| [starship](starship) |
-| [alacritty](alacritty) |
+| [fastfetch](fastfetch) | Systeminfos with style |
+| [starship](starship) | Custom terminal promts |
+| [alacritty](alacritty) | Terminal |
+| [yazi](yazi) | Terminal filemanager |
 
