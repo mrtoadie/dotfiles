@@ -7,4 +7,4 @@ Some DOT files for Linux
 | [fastfetch](fastfetch) | Systeminfos with style |
 | [starship](starship) | Custom terminal promts |
 | [alacritty](alacritty) | Terminal |
-| [yazi](yazi) | Fanzy terminal filemanager |
+| [yazi](yazi) | Fanzy terminal filemanager (basic config files) |
