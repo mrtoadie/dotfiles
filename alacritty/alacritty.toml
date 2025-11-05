@@ -40,3 +40,8 @@ style = "Medium"
 program = "/bin/zsh"
 args = ["-l"]
 
+[keyboard]
+bindings = [
+{ key = "V", mods = "Control", action = "Paste" },
+{ key = "C", mods = "Control", action = "Copy" },
+]
