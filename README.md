@@ -1,4 +1,6 @@
 # Welcome to my dotfiles!
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/mrtoadie/GetBingWallpaper/total) ![GitHub License](https://img.shields.io/github/license/mrtoadie/GetBingWallpaper) ![GitHub Repo stars](https://img.shields.io/github/stars/mrtoadie/GetBingWallpaper)
+
 Some DOT files for Linux
 | Category | Description |
 | --- | --- |
@@ -8,3 +10,4 @@ Some DOT files for Linux
 | [starship](starship) | Custom terminal promts |
 | [alacritty](alacritty) | Terminal |
 | [yazi](yazi) | Fanzy terminal filemanager (basic config files) |
+
