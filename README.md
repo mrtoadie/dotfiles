@@ -1,5 +1,5 @@
 # Welcome to my dotfiles!
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/mrtoadie/GetBingWallpaper/total) ![GitHub License](https://img.shields.io/github/license/mrtoadie/GetBingWallpaper) ![GitHub Repo stars](https://img.shields.io/github/stars/mrtoadie/GetBingWallpaper)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/mrtoadie/dotfiles/total) ![GitHub License](https://img.shields.io/github/license/mrtoadie/dotfiles) ![GitHub Repo stars](https://img.shields.io/github/stars/mrtoadie/dotfiles)
 
 Some DOT files for Linux
 | Category | Description |
