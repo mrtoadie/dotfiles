@@ -1,0 +1,18 @@
+# ~/.config/yazi/yazi.toml
+
+[preview]
+# Maximale Größe des Vorschaufensters (Zeilen × Spalten)
+max_width = 80
+max_height = 30
+
+# Welche Datei‑Erweiterungen sollen überhaupt vorgespielt werden?
+# Wir aktivieren hier alles, was wir später in den Skripten behandeln.
+extensions = [
+    "md", "markdown",       # Markdown
+    "txt", "log",           # Text
+    "rs", "py", "js", "c", "cpp", "go", "java", "ts", # Quellcode
+    "png", "jpg", "jpeg", "gif", "svg",               # Bilder
+]
+
+# Pfad zu den Preview‑Skripten (relativ zum Config‑Verzeichnis)
+script_dir = "preview"
