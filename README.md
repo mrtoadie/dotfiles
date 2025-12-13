@@ -2,7 +2,7 @@
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/mrtoadie/dotfiles/total) ![GitHub License](https://img.shields.io/github/license/mrtoadie/dotfiles) ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/y/mrtoadie/dotfiles/main)
 
 
-Some DOT files for Linux
+Some of my personal DOT files for Linux
 | Category | Description |
 | --- | --- |
 | **Customizing & Theming** | |
@@ -25,8 +25,9 @@ Some DOT files for Linux
 ### Usage
 ### Describtion
 ## yazi
+Personal config for the terminal file manager [yazi](https://yazi-rs.github.io/).
 ### Usage
-Copy the files to ´$home/.config/yazi´ und run yazi.
+Copy the files to `$home/.config/yazi` und run yazi.
 ### Describtion
 | File | |
 | --- | --- |
