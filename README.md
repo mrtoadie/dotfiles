@@ -15,10 +15,9 @@ Some of my personal DOT files for Linux
 ## alacritty
 Personal config for the terminal [alacritty](https://alacritty.org/).
 ### Usage
-```copy alacritty.toml```
-### Describtion
-| File | Description |
-| --- | --- |
+```bash
+cp alacritty.toml ~/.config/alacritty/
+```
 ## conky
 Personal config for the system monitor [conky](https://github.com/brndnmtthws/conky).
 ### Usage
@@ -26,15 +25,20 @@ Personal config for the system monitor [conky](https://github.com/brndnmtthws/co
 | File | Description |
 | --- | --- |
 ## fastfetch
+Personal config for [fastfetch](https://github.com/fastfetch-cli/fastfetch).
 ### Usage
+```bash
+cp config.jsonc ~/.config/fastfetch/
+```
 ### Describtion
 | File | Description |
 | --- | --- |
 ## starship
+Personal config for [starship](https://starship.rs/).
 ### Usage
-### Describtion
-| File | Description |
-| --- | --- |
+```bash
+cp starship.toml ~/.config/
+```
 ## yazi
 Personal config for the terminal file manager [yazi](https://yazi-rs.github.io/).
 ### Usage
