@@ -14,6 +14,7 @@ Some of my personal DOT files for Linux
 
 ## alacritty
 My personal config file for the terminal [alacritty](https://alacritty.org/).
+![alacritty](/alacritty/alacritty.png)
 ### Usage
 ```bash
 cp alacritty.toml ~/.config/alacritty/
