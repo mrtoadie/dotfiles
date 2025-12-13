@@ -13,23 +13,34 @@ Some of my personal DOT files for Linux
 | [yazi](yazi) | Fanzy terminal filemanager (basic config files) |
 
 ## alacritty
+Personal config for the terminal [alacritty](https://alacritty.org/).
 ### Usage
+```copy alacritty.toml```
 ### Describtion
+| File | Description |
+| --- | --- |
 ## conky
+Personal config for the system monitor [conky](https://github.com/brndnmtthws/conky).
 ### Usage
 ### Describtion
+| File | Description |
+| --- | --- |
 ## fastfetch
 ### Usage
 ### Describtion
+| File | Description |
+| --- | --- |
 ## starship
 ### Usage
 ### Describtion
+| File | Description |
+| --- | --- |
 ## yazi
 Personal config for the terminal file manager [yazi](https://yazi-rs.github.io/).
 ### Usage
 Copy the files to `$home/.config/yazi` und run yazi.
 ### Describtion
-| File | |
+| File | Description |
 | --- | --- |
 | yazi.toml | basic yazi config |
 | theme.toml | |
