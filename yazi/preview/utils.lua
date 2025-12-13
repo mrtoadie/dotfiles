@@ -1,4 +1,4 @@
--- ~/.config/yazi/preview/utils.lua
+cc-- ~/.config/yazi/preview/utils.lua
 local M = {}
 
 function M.max_width()

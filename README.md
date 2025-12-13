@@ -59,4 +59,6 @@ Copy the files to `$home/.config/yazi` und run yazi.
 | preview/code.lua | Used to display syntax highlighting |
 | preview/image.lua | Used to display images in yazi|
 | preview/markdown.lua | Used to display markdown files |
-| preview/utils.lua | |
+| preview/utils.lua | - |
+> [!CAUTION]
+> Preview issue > https://github.com/mrtoadie/dotfiles/issues/3
