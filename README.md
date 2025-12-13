@@ -12,3 +12,29 @@ Some DOT files for Linux
 | [alacritty](alacritty) | Terminal |
 | [yazi](yazi) | Fanzy terminal filemanager (basic config files) |
 
+## alacritty
+### Usage
+### Describtion
+## conky
+### Usage
+### Describtion
+## fastfetch
+### Usage
+### Describtion
+## starship
+### Usage
+### Describtion
+## yazi
+### Usage
+Copy the files to ´$home/.config/yazi´ und run yazi.
+### Describtion
+| File | |
+| --- | --- |
+| yazi.toml | basic yazi config |
+| theme.toml | |
+| package.toml | |
+| init.lua | |
+| preview/code.lua | |
+| preview/image.lua | |
+| preview/markdown.lua | |
+| preview/utils.lua | |
