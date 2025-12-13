@@ -6,11 +6,11 @@ Some of my personal DOT files for Linux
 | Category | Description |
 | --- | --- |
 | **Customizing & Theming** | |
-| [conky](conky) | conky |
-| [fastfetch](fastfetch) | Systeminfos with style |
-| [starship](starship) | Custom terminal promts |
-| [alacritty](alacritty) | Terminal |
-| [yazi](yazi) | Fanzy terminal filemanager (basic config files) |
+| [alacritty](#alacritty) | Terminal |
+| [conky](#conky) | conky |
+| [fastfetch](#fastfetch) | Systeminfos with style |
+| [starship](#starship) | Custom terminal promts |
+| [yazi](#yazi) | Fanzy terminal filemanager (basic config files) |
 
 ## alacritty
 Personal config for the terminal [alacritty](https://alacritty.org/).
@@ -21,9 +21,16 @@ cp alacritty.toml ~/.config/alacritty/
 ## conky
 Personal config for the system monitor [conky](https://github.com/brndnmtthws/conky).
 ### Usage
+```bash
+Copy the files to `~/.config/conky/`
+```
 ### Describtion
 | File | Description |
 | --- | --- |
+| conky_backup_vm.conf | shows stats for running VMs, Containers, Pods and my latest Backups |
+| conky.conf | main conky config file |
+| conky_start.sh | start script for conky |
+| vm_mon.sh | script to monitor all running VMs, containers and Pods |
 ## fastfetch
 Personal config for [fastfetch](https://github.com/fastfetch-cli/fastfetch).
 ### Usage
