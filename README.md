@@ -1,6 +1,5 @@
 # Welcome to my dotfiles!
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/mrtoadie/dotfiles/total) ![GitHub License](https://img.shields.io/github/license/mrtoadie/dotfiles) ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/y/mrtoadie/dotfiles/main)
-
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/mrtoadie/dotfiles/total) ![GitHub License](https://img.shields.io/github/license/mrtoadie/dotfiles?style=flat) ![GitHub Release](https://img.shields.io/github/v/release/mrtoadie/dotfiles)
 
 Some of my personal DOT files for Linux
 | Category | Description |
